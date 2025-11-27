@@ -1,5 +1,4 @@
 #include "aiv_vector.h"
-#include "aiv_list.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -94,17 +93,8 @@ void Vector_example() {
 }
 
 int main() {
-    aiv_list_t list = aiv_list_new();
-
-    int i10 = 10;
-    aiv_list_add(&list, &i10);
-
-    int i20 = 20;
-    aiv_list_add(&list, &i10);
-
-    puts("sdfasdf");
-
-    printf("head value: %d\n", *(int*)list.head->data);
+    
+    Vector_example();
 
     puts("=== CANARY ===");
     return 0;

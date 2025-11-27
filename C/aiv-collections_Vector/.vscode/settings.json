@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.asm": "asm6502",
+        "aiv_vector.h": "c"
+    }
+}
